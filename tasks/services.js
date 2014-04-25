@@ -69,7 +69,7 @@ module.exports = function(grunt) {
    * @return {boolean} yes or no.
    */
   function isRunning(process, cb) {
-    var checkCommand = 'ps x|grep ' + process + '|grep -v grep|awk \'{print $1}\'';
+    var checkCommand = 'ps ax|grep ' + process + '|grep -v grep|awk \'{print $1}\'';
     var execOptions = {};
 
     exec(checkCommand, execOptions, function( err, stdout ) {
