@@ -42,8 +42,12 @@ grunt.registerTask('stop', 'Stop all services', ['stopRedis', 'stopMongo']);
 ```
 
 ## Release History
+
+- **v0.0.2**, *25 Apr 2014*
+    - Fix for linux environments, thankyou [@bryanlester](https://github.com/bryanlester).
 - **v0.0.1**, *15 Feb 2014*
     - Big Bang
 
 ## License
+
 Copyright (c) 2014 Thanasis Polychronakis. Licensed under the MIT license.
