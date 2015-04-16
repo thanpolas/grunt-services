@@ -43,6 +43,8 @@ grunt.registerTask('stop', 'Stop all services', ['stopRedis', 'stopMongo']);
 
 ## Release History
 
+- **v0.1.0**, *16 Apr 2015*
+    - Fixed redis shutdown, thank you [@itsjustcon](https://github.com/itsjustcon).
 - **v0.0.3**, *21 Nov 2014*
     - Changed the way Mongo is shutdown, instead of a brutal kill we now use the suggested by mongodb way, thank you [@victorsand](https://github.com/victorsand).
 - **v0.0.2**, *25 Apr 2014*
