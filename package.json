@@ -1,6 +1,6 @@
 {
   "name": "grunt-services",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Start and Stop services, databases",
   "homepage": "https://github.com/thanpolas/grunt-services",
   "repository": "git@github.com:thanpolas/grunt-services.git",
