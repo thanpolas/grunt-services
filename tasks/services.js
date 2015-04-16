@@ -46,7 +46,7 @@ module.exports = function(grunt) {
   }
 
   grunt.registerTask('stopRedis', 'Kill reddis',
-    downService('Redis', 'killall -9 redis-server'));
+    downService('Redis', 'redis-cli shutdown'));
   grunt.registerTask('stopMongo', 'Kill mongodb',
     downService('Mongodb', 'mongo admin --eval "db.shutdownServer()"'));
   grunt.registerTask('stopPostgres', 'Kill Postgres',
